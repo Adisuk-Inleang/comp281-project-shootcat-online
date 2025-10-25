@@ -2,19 +2,19 @@
 - flask
 - eventlet
 - flask-socketio
-```cmd
-python -m venv venv
-venv\Scripts\activate.bat    (Windows)
-หรือ
-venv/bin/activate    (Mac/Linux)
+1. เข้า cmd
+2. ใส่คำสั่ง python -m venv venv
+3. ใส่คำสั่ง venv\Scripts\activate.bat    (Windows)
+   หรือ
+   venv/bin/activate    (Mac/Linux)
 
-pip install flask eventlet flask-socketio
+4. ใส่คำสั่ง pip install flask eventlet flask-socketio
 ```
 ---
 ## การรันโค้ด
 1) รัน server (Python)
 ```cmd
-python server.py
+ใส่คำสั่งนี้เพื่อรัน python server.py
 ```
 2) เปิดเว็บเบราว์เซอร์ ไปที่ `http://localhost:5000`
 
